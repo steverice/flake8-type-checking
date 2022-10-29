@@ -31,7 +31,7 @@ classifiers = [
 python = '>=3.8'
 flake8 = '*'
 astor = {python = "<3.9", version = "*"}
-classify-imports = '*'
+classify-imports = { git = "https://github.com/steverice/classify-imports.git", branch = "consistent-behavior" }
 
 [tool.poetry.dev-dependencies]
 pytest = '*'

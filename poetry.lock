@@ -65,6 +65,13 @@ description = "Utilities for refactoring imports in python-like syntax."
 category = "main"
 optional = false
 python-versions = ">=3.7"
+develop = false
+
+[package.source]
+type = "git"
+url = "https://github.com/steverice/classify-imports.git"
+reference = "consistent-behavior"
+resolved_reference = "74670e4973e2f1955d48880a7186c4ce40ff252d"
 
 [[package]]
 name = "colorama"
@@ -541,7 +548,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = '>=3.8'
-content-hash = "fc29baa07456bcdac7221d0392dc90f69729d0222196360c4f955fb144483603"
+content-hash = "a695fb536dedc54f37190a50dd7c806ab37ae510b0a83ae45575030c04c57e9e"
 
 [metadata.files]
 appnope = [
@@ -568,10 +575,7 @@ cfgv = [
     {file = "cfgv-3.3.1-py2.py3-none-any.whl", hash = "sha256:c6a0883f3917a037485059700b9e75da2464e6c27051014ad85ba6aaa5884426"},
     {file = "cfgv-3.3.1.tar.gz", hash = "sha256:f5a830efb9ce7a445376bb66ec94c638a9787422f96264c98edc6bdeed8ab736"},
 ]
-classify-imports = [
-    {file = "classify_imports-4.2.0-py2.py3-none-any.whl", hash = "sha256:dbbc264b70a470ed8c6c95976a11dfb8b7f63df44ed1af87328bbed2663f5161"},
-    {file = "classify_imports-4.2.0.tar.gz", hash = "sha256:7abfb7ea92149b29d046bd34573d247ba6e68cc28100c801eba4af17964fc40e"},
-]
+classify-imports = []
 colorama = [
     {file = "colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"},
     {file = "colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44"},
